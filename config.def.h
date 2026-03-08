@@ -8,6 +8,8 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int horizpadbar        = 2;        /* horizontal padding for statusbar */
 static const int vertpadbar         = 4;        /* vertical padding for statusbar */
+static const int iconsize = 16;                 /* icon size */
+static const int iconspacing = 5;               /* space between icon and title */
 static const char *fonts[]          = { 
     "Hack Nerd Font:pixelsize=18:antialias=true:autohint=true",
     "monospace:size=10" };

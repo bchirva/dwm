@@ -8,3 +8,7 @@ Patched build of [dwm](dwm.suckless.org)
 * [statuspadding](https://dwm.suckless.org/patches/statuspadding)
 * [actualfullscreen](https://dwm.suckless.org/patches/actualfullscreen)
 * [statuscmd](https://dwm.suckless.org/patches/statuscmd)
+* [winicon](https://dwm.suckless.org/patches/winicon)
+
+## Additional dependencies
+* imlib2

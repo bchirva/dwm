@@ -7,7 +7,7 @@ Patched build of [dwm](dwm.suckless.org)
 * [fullgaps](https://dwm.suckless.org/patches/fullgaps)
 * [statuspadding](https://dwm.suckless.org/patches/statuspadding)
 * [actualfullscreen](https://dwm.suckless.org/patches/actualfullscreen)
-* [statuscmd](https://dwm.suckless.org/patches/statuscmd)
+* [status2d](https://dwm.suckless.org/patches/status2d) with [statuscmd](https://dwm.suckless.org/patches/statuscmd)
 * [winicon](https://dwm.suckless.org/patches/winicon)
 
 ## Additional dependencies

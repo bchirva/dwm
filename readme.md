@@ -12,3 +12,14 @@ Patched build of [dwm](dwm.suckless.org)
 
 ## Additional dependencies
 * imlib2
+
+## Custom changes:
+
+1. **Tag indication**
+Tag indication by names with "occupation square" has been replaced with NerdFont icons.
+The list of tags is displayed up to the last active one (e.g., if the last active tag out of 9 is 7, then only 7 icons will be shown).
+
+Commit `3b274de602bd`
+
+2. **Keybindins**
+**st** and **dmenu** spawning has been removed in favor of 3rd party launchers (e.g., [sxhkd](https://github.com/baskerville/sxhkd))

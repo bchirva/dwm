@@ -1,19 +1,19 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
-static const unsigned int gappx     = 5;        /* gaps between windows */
+static const unsigned int borderpx  = 3;        /* border pixel of windows */
+static const unsigned int gappx     = 4;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int horizpadbar        = 2;        /* horizontal padding for statusbar */
-static const int vertpadbar         = 4;        /* vertical padding for statusbar */
+static const int vertpadbar         = 16;       /* vertical padding for statusbar */
 static const int vertpad            = gappx;    /* vertical padding of bar */
 static const int sidepad            = gappx;    /* horizontal padding of bar */
 static const int iconsize = 16;                 /* icon size */
 static const int iconspacing = 5;               /* space between icon and title */
 static const char *fonts[]          = { 
-    "Hack Nerd Font:pixelsize=18:antialias=true:autohint=true",
+    "Hack Nerd Font:pixelsize=16:antialias=true:autohint=true",
     "monospace:size=10" };
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";

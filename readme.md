@@ -9,6 +9,7 @@ Patched build of [dwm](dwm.suckless.org)
 * [actualfullscreen](https://dwm.suckless.org/patches/actualfullscreen)
 * [status2d](https://dwm.suckless.org/patches/status2d) with [statuscmd](https://dwm.suckless.org/patches/statuscmd)
 * [winicon](https://dwm.suckless.org/patches/winicon)
+* [barpadding](https://dwm.suckless.org/patches/barpadding)
 
 ## Additional dependencies
 * imlib2

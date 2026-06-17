@@ -495,6 +495,7 @@ buttonpress(XEvent *e)
 					*s = '\0';
 					x += TEXTW(text) - lrpad;
 					*s = '^';
+					s++;
 					while (*(s++) != '^');
 					text = s;
 					s--;

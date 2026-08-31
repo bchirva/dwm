@@ -35,6 +35,11 @@ dwm draws a small border around windows to indicate the focus state.
 .B \-v
 prints version information to stderr, then exits.
 .SH USAGE
+.SS Tags
+dwm uses symbol icons in the tag bar. Filled icons indicate tags that are
+currently viewed; outlined icons indicate tags that are hidden. The filled
+icon is shown for active tags, and the outlined icon for inactive tags.
+
 .SS Status bar
 .TP
 .B X root window name
@@ -149,6 +154,37 @@ Resize focused window while dragging. Tiled windows will be toggled to the float
 .SH CUSTOMIZATION
 dwm is customized by creating a custom config.h and (re)compiling the source
 code. This keeps it fast, secure and simple.
+
+.SS Colors
+dwm uses a color scheme system with two schemes: ISchemeNormR for normal windows and
+text, and ISchemeSelR for focused windows and selected tags. Each scheme defines three
+colors: foreground, background, and border.
+
+Colors can be set in config.h or loaded from X resources (~/.Xresources) using
+the following resource names:
+.TP
+.B dwm.background
+Default background color
+.TP
+.B dwm.foreground
+Default foreground (text) color
+.TP
+.B dwm.accent
+Accent color used for selected/focused elements
+.TP
+.B dwm.accentcontrast
+Contrast color for selected background
+
+The status bar supports inline color codes:
+.TP
+.B cRRGGBB
+Change foreground color (hex color, e.g. ^cFF0000red)
+.TP
+.B bRRGGBB
+Change background color (e.g. ^cFF0000^b00FF00colored text^ddefault)
+.TP
+.B d
+Reset to default colors
 .SH SIGNALS
 .TP
 .B SIGHUP - 1

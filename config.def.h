@@ -15,16 +15,15 @@ static const int iconspacing = 5;               /* space between icon and title 
 static const char *fonts[]          = { 
     "Hack Nerd Font:pixelsize=16:antialias=true:autohint=true",
     "monospace:size=10" };
-static char normbgcolor[]           = "#222222";
-static char normbordercolor[]       = "#444444";
-static char normfgcolor[]           = "#bbbbbb";
-static char selfgcolor[]            = "#eeeeee";
-static char selbordercolor[]        = "#005577";
-static char selbgcolor[]            = "#005577";
+
+static char background[] = "#222222";
+static char foreground[] = "#bbbbbb";
+static char accent[] = "#005577";
+static char accentcontrast[] = "#002255";
 static char *colors[][3] = {
        /*               fg           bg           border   */
-       [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
-       [SchemeSel]  = { selfgcolor,  selbgcolor,  selbordercolor  },
+       [SchemeNorm] = { foreground, background,     background },
+       [SchemeSel]  = { accent,     accentcontrast, accent  },
 };
 
 /* tagging */
